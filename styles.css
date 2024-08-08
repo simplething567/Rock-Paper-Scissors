@@ -1,0 +1,48 @@
+*{
+    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.titl{
+    font-size: 100px;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.mid{
+    display: flex;
+    flex-direction: column;
+}
+
+.user_comp{
+    display: flex;
+    justify-content: space-around;
+}
+
+.userpic,
+.comppic{
+    height: 300px;
+    width: 300px;
+}
+
+.scores{
+    display: flex;
+    flex-basis: 300px;
+    justify-content: space-around;
+}
+
+.rps{
+    display: flex;
+    justify-content: space-around;
+}
+
+.rpspic{
+    height: 300px;
+    width: 300px;
+    cursor: pointer;
+}
